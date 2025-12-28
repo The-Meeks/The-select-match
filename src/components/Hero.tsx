@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center pt-16 sm:pt-20">
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-linear-to-b from-black/70 via-black/60 to-black z-10" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-black z-10" />
         <Image 
           src="/match.jpeg" 
           alt="Elegant couple" 
@@ -24,17 +24,15 @@ export default function Hero() {
         </div>
 
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-serif leading-tight mb-4 sm:mb-6 bg-linear-to-r from-amber-200 via-white to-rose-200 bg-clip-text text-transparent px-4">
-          Where Exceptional
-          <br />
-          People Meet
+          THE SELECT MATCH
         </h1>
 
         <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-300 max-w-3xl mx-auto mb-3 sm:mb-4 font-light leading-relaxed px-4">
-          Discreet, curated introductions for successful professionals seeking meaningful connections
+          High-End Matchmaking & Luxury Dating Concierge
         </p>
 
         <p className="text-sm sm:text-base text-gray-400 max-w-2xl mx-auto mb-8 sm:mb-12 font-light px-4">
-          No apps. No random matches. Only verified, compatible partners introduced through white-glove service.
+          Real relationships. No swiping. White-glove introductions.
         </p>
 
         <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-3 sm:gap-4 mb-8 sm:mb-12 px-4">

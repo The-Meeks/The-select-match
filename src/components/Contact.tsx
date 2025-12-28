@@ -39,24 +39,24 @@ export default function Contact() {
     <section id="contact" className="py-12 sm:py-16 lg:py-24 px-4 sm:px-6 lg:px-8 bg-black">
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-12 sm:mb-16">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif mb-4 sm:mb-6 bg-linear-to-r from-amber-400 to-rose-400 bg-clip-text text-transparent px-4">
-            Begin Your Journey
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif mb-4 sm:mb-6 bg-gradient-to-r from-amber-400 to-rose-400 bg-clip-text text-transparent px-4">
+            Contact Us
           </h2>
-          <div className="w-16 sm:w-24 h-1 bg-linear-to-r from-amber-400 to-rose-600 mx-auto mb-6 sm:mb-8" />
+          <div className="w-16 sm:w-24 h-1 bg-gradient-to-r from-amber-400 to-rose-600 mx-auto mb-6 sm:mb-8" />
           <p className="text-base sm:text-lg lg:text-xl text-gray-400 font-light px-4">
             Schedule your confidential consultation today
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-6 sm:gap-8">
-          <div className="bg-linear-to-br from-zinc-900 to-black rounded-2xl sm:rounded-3xl p-6 sm:p-8 lg:p-10 border border-white/10">
+          <div className="bg-gradient-to-br from-zinc-900 to-black rounded-2xl sm:rounded-3xl p-6 sm:p-8 lg:p-10 border border-white/10">
             <h3 className="text-xl sm:text-2xl font-serif mb-6 sm:mb-8 text-amber-400">Get In Touch</h3>
             
             <div className="space-y-4 sm:space-y-6">
               <ContactItem 
                 icon={<Phone size={18} className="sm:w-5 sm:h-5" />}
                 label="Phone / WhatsApp"
-                value="+254 XXX XXX XXX"
+                value="[PHONE / WHATSAPP NUMBER]"
               />
               <ContactItem 
                 icon={<Mail size={18} className="sm:w-5 sm:h-5" />}
@@ -70,33 +70,34 @@ export default function Contact() {
               <div className="space-y-3 sm:space-y-4 text-xs sm:text-sm text-gray-400">
                 <div>
                   <p className="font-medium text-gray-300 mb-2">Kenya</p>
-                  <p>M-PESA Paybill: [PAYBILL]</p>
-                  <p>Account: [ACCOUNT]</p>
+                  <p>M-PESA Paybill: [ENTER PAYBILL NUMBER]</p>
+                  <p>Account: [YOUR NAME or INVOICE NUMBER]</p>
                 </div>
                 <div>
                   <p className="font-medium text-gray-300 mb-2">International</p>
-                  <p>Bank Transfer, Visa, Mastercard, PayPal</p>
+                  <p>Bank Transfer / SWIFT: [ENTER BANK DETAILS]</p>
+                  <p>Card Payment: Visa / Mastercard / PayPal</p>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="bg-linear-to-br from-amber-500/10 to-rose-500/10 rounded-2xl sm:rounded-3xl p-6 sm:p-8 lg:p-10 border border-amber-500/20 backdrop-blur-sm">
+          <div className="bg-gradient-to-br from-amber-500/10 to-rose-500/10 rounded-2xl sm:rounded-3xl p-6 sm:p-8 lg:p-10 border border-amber-500/20 backdrop-blur-sm">
             <h3 className="text-xl sm:text-2xl font-serif mb-4 sm:mb-6 text-amber-400">Why Choose Us?</h3>
             <div className="space-y-3 sm:space-y-4">
-              <WhyChooseItem text="Six years of proven success in elite matchmaking" />
-              <WhyChooseItem text="Rigorous verification and vetting process" />
-              <WhyChooseItem text="Complete discretion and confidentiality" />
-              <WhyChooseItem text="White-glove service at every step" />
-              <WhyChooseItem text="Premium first dates, fully arranged" />
-              <WhyChooseItem text="Dedicated matchmaker guidance" />
+              <WhyChooseItem text="Substance over swiping - no dating app fatigue" />
+              <WhyChooseItem text="Every client and introduction is carefully vetted" />
+              <WhyChooseItem text="Meaningful, lasting relationships and marriages" />
+              <WhyChooseItem text="Private, curated, highly confidential approach" />
+              <WhyChooseItem text="Premium first dates, fully arranged and paid" />
+              <WhyChooseItem text="Personal matchmaker guidance every step" />
             </div>
 
             <a 
-              href="mailto:theselectmatch1@gmail.com"
-              className="mt-6 sm:mt-8 w-full inline-flex items-center justify-center gap-2 px-6 sm:px-8 py-3 sm:py-4 rounded-full bg-linear-to-r from-amber-500 to-rose-600 hover:from-amber-600 hover:to-rose-700 text-white font-medium shadow-xl shadow-amber-500/20 transition-all transform hover:scale-105 text-sm sm:text-base"
+              href="/profile"
+              className="mt-6 sm:mt-8 w-full inline-flex items-center justify-center gap-2 px-6 sm:px-8 py-3 sm:py-4 rounded-full bg-gradient-to-r from-amber-500 to-rose-600 hover:from-amber-600 hover:to-rose-700 text-white font-medium shadow-xl shadow-amber-500/20 transition-all transform hover:scale-105 text-sm sm:text-base"
             >
-              Schedule Consultation
+              Complete Client Profile
               <ArrowRight size={18} className="sm:w-5 sm:h-5" />
             </a>
           </div>

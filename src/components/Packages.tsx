@@ -57,11 +57,13 @@ export default function Packages() {
       localPrice: "KES 100,000",
       duration: "3 Months",
       features: [
-        "Two vetted introductions",
-        "Private consultation",
-        "Profile setup & guidance",
-        "First dates arranged & paid",
-        "Basic matchmaker support"
+        "Two fully vetted introductions (both first dates arranged and fully paid at high-end restaurants)",
+        "Private consultation and confidential intake form",
+        "Access to curated member network",
+        "Basic profile setup and presentation guidance",
+        "Personalized 30-minute call with matchmaker",
+        "Direct communication with matchmaker throughout membership",
+        "Option to upgrade anytime"
       ],
       popular: false
     },
@@ -71,12 +73,13 @@ export default function Packages() {
       localPrice: "KES 200,000",
       duration: "6 Months",
       features: [
-        "Four vetted introductions",
-        "Dedicated matchmaker",
-        "Enhanced profile presentation",
-        "Priority scheduling",
-        "Ongoing guidance & refinement",
-        "Regional match search"
+        "Everything in Silver, plus:",
+        "Two additional carefully vetted introductions (first dates fully paid)",
+        "Dedicated matchmaker consultation and ongoing guidance",
+        "Post-date feedback and light coaching to refine compatibility",
+        "Enhanced profile writing, professional image advice, and presentation guidance",
+        "Regional match search tailored to your preferences",
+        "Priority scheduling for consultation and introductions"
       ],
       popular: true
     },
@@ -86,12 +89,13 @@ export default function Packages() {
       localPrice: "KES 400,000",
       duration: "6-12 Months",
       features: [
-        "Six+ curated introductions",
-        "Senior matchmaker oversight",
-        "Image consulting included",
-        "Date coaching sessions",
-        "National match search",
-        "Premium concierge service"
+        "Everything in Gold, plus:",
+        "Six or more hand-selected introductions (first dates fully paid at premium venues)",
+        "Senior matchmaker assigned for full-service oversight",
+        "Professional image consulting and lifestyle presentation",
+        "Personalized date coaching and strategic guidance",
+        "National and international match search",
+        "Concierge-level service including private check-ins and travel coordination"
       ],
       popular: false
     },
@@ -101,12 +105,14 @@ export default function Packages() {
       localPrice: "KES 1.3M",
       duration: "Lifetime Access",
       features: [
-        "Unlimited introductions",
-        "VIP matchmaker access",
-        "Global match search",
-        "Exclusive member events",
-        "Retreat invitations",
-        "Lifetime priority service"
+        "Everything in Platinum, plus:",
+        "Unlimited introductions for life (all first dates fully paid)",
+        "Invitations to exclusive networking dinners, retreats, and elite events",
+        "Global match search and introductions",
+        "Continuous relationship coaching and mentoring",
+        "VIP concierge service with a dedicated senior matchmaker",
+        "Priority access to new members and elite circles",
+        "Exclusive insights, updates, and luxury matchmaking strategy sessions"
       ],
       popular: false
     }
