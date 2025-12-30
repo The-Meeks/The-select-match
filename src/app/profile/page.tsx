@@ -1,7 +1,14 @@
-export default function ProfilePage() {
+"use client";
+
+import React from "react";
+
+const ProfilePage = () => {
   return (
-    <main>
+    <div>
       <h1>Profile</h1>
-    </main>
+    </div>
   );
-}
+};
+
+export default ProfilePage;
+export {};
