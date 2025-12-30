@@ -94,10 +94,10 @@ export default function Contact() {
             </div>
 
             <a 
-              href="/profile"
+              href="mailto:theselectmatch1@gmail.com"
               className="mt-6 sm:mt-8 w-full inline-flex items-center justify-center gap-2 px-6 sm:px-8 py-3 sm:py-4 rounded-full bg-gradient-to-r from-amber-500 to-rose-600 hover:from-amber-600 hover:to-rose-700 text-white font-medium shadow-xl shadow-amber-500/20 transition-all transform hover:scale-105 text-sm sm:text-base"
             >
-              Complete Client Profile
+              Schedule Consultation
               <ArrowRight size={18} className="sm:w-5 sm:h-5" />
             </a>
           </div>
